@@ -1,8 +1,9 @@
-cont = 0
-for i in range(0,5):
-    entrada = int(input())
+entrada = int(input())
 
-    if entrada%2 == 0:
-        cont += 1
-
-print(cont, "valores pares")
+cont = entrada
+impares = 0
+while impares < 6:
+    if  (cont%2 == 1):
+        print(cont)
+        impares += 1
+    cont += 1
