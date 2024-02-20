@@ -27,4 +27,3 @@ elif vertebrado == "invertebrado":
             print("sanguessuga")
         elif tipo == "onivoro":
             print("minhoca")    
-
